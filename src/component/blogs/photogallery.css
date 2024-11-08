@@ -1,0 +1,29 @@
+.photo-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.gallery-item {
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.images {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto; /* Allows scrolling if images overflow horizontally */
+}
+
+.images img {
+  width: 150px; /* Fixed width for all images */
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
