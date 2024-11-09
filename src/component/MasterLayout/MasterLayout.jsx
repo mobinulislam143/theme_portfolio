@@ -133,72 +133,7 @@ const MasterLayout = () => {
 
             </div>
    
-            {/* <div className="text-center w-full">
-             {
-              isLoggedIn?(
-                <button
-                className="btn mx-auto bg-bg_secondary text-bg_primary hover:bg-bg_secondary"
-                >
-                Logout
-              </button>
-
-              ):(
-                <button
-                className="btn mx-auto bg-bg_secondary text-bg_primary hover:bg-bg_secondary"
-                onClick={() => document.getElementById('my_modal_3').showModal()}
-              >
-                Login to more explore
-              </button>
-              )
-             }
-
-              <dialog id="my_modal_3" className="modal">
-                <div className="modal-box relative">
-                  <h2 className="text-text_color_light text-3xl text-bold">Login</h2><br />
-                  <form>
-                    <div>
-
-                      <label className="input input-bordered flex items-center gap-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 16 16"
-                          fill="currentColor"
-                          className="h-4 w-4 opacity-70">
-                          <path
-                            d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
-                          <path
-                            d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
-                        </svg>
-                        <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} className="grow" placeholder="Email" />
-                      </label>
-                    </div>
-
-                    <div className="mt-5">
-
-
-                      <label className="input input-bordered flex items-center gap-2">
-                        Name:
-                        <input type="text" className="grow" placeholder="Daisy" value={name}
-                          onChange={(e) => setName(e.target.value)} />
-                      </label>
-                    </div>
-                    <div className="modal-action">
-                      <button type="submit"  onClick={handleLoginSubmit} className="btn w-full bg-bg_secondary hover:bg-[#c47e06] text-bg_primary font-bold">Login</button>
-                      <button
-                        type="button"
-                        className="btn bg-gray-200 text-black hover:bg-gray-300 btn-sm btn-circle absolute right-2 top-2"
-                        onClick={() => document.getElementById('my_modal_3').close()}
-                      >
-                        ✕
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </dialog>
-
-              <StarRating/>
-            </div> */}
-            <a href={myCv} className='mx-auto flex items-center gap-4 justify-center text-white text-lg cursor-pointer py-4 '>
+           <a href={myCv} className='mx-auto flex items-center gap-4 justify-center text-white text-lg cursor-pointer py-4 '>
               <DownloadBtn />
             </a>
           </div>

@@ -62,7 +62,7 @@ const About = () => {
 
         <div className="flex flex-wrap pt-5 items-start p-5">
           {!serviceData || serviceData.length === 0 ? (
-            <ServiceSkeleton />
+            <p>No Service Here!!</p>
           ) : (
             serviceData.map((item, index) => (
               <div key={index} data-aos="fade-right" className="w-1/2 border-r  pl-2 pb-6">

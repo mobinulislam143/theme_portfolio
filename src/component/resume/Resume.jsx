@@ -207,15 +207,7 @@ const Resume = () => {
             <div className="grid grid-cols-2 items-start border-b py-4">
 
               {loading ? (
-                // Show skeletons while loading
-                <div className="grid grid-cols-2 gap-4"> {/* Use grid layout for two columns */}
-                  {Array.from({ length: 4 }).map((_, index) => (
-                    <div key={index} className="text-center"> {/* Remove margins */}
-                      <div className="skeleton h-16 w-16 shrink-0 rounded-full bg-text_color_dark"></div>
-                      <p className="text-xs text-text_color_dark">Loading...</p>
-                    </div>
-                  ))}
-                </div>
+               <p>No Frontend Skills Here!!</p>
               ) : (
                 frontSkillData && frontSkillData.length > 0 ? (
                   frontSkillData.map((skill, index) => (
@@ -283,12 +275,7 @@ const Resume = () => {
             <div className="col border-b py-4">
 
               {loading ? (
-                // Show skeletons while loading
-                <div className="flex flex-col space-y-2">
-                  {Array.from({ length: 4 }).map((_, index) => (
-                    <div key={index} className="skeleton mb-4 bg-text_color_dark h-4 w-full"></div>
-                  ))}
-                </div>
+                <p>No Backend Skills here!!</p>
 
               ) : (
                 <Reorder.Group 
