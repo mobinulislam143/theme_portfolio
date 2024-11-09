@@ -79,7 +79,7 @@ const Blogs = () => {
                     {blog.blogdesc.slice(0, 100)}... {/* Shortened for preview */}
                   </p>
                   <div className="flex items-center justify-between">
-                    <p className="text-text_color_dark">Written by {blog.blogwriter}</p>
+                    <p className="text-text_color_dark">{blog.blogwriter.substring(0, 13)}...</p>
                     <button
                       className="bg-[#f59e0b] text-white px-4 py-2 rounded-md hover:bg-[#f59e0b] transition-colors"
                       onClick={() => handleReadMore(blog)}

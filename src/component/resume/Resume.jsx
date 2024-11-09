@@ -124,7 +124,7 @@ const Resume = () => {
   }, []);
 
   return (
-    <div className="h-[600px] card bg-bg_primary shadow-lg rounded-md  overflow-y-auto overflow-x-hidden">
+    <div className="h-[600px] card bg-gray-800 shadow-lg rounded-md  overflow-y-auto overflow-x-hidden">
 
 
       <div className="p-5">
@@ -138,7 +138,7 @@ const Resume = () => {
 
         <div className="border-r px-1 pb-2 ">
           <p className="text-xl flex items-center gap-2 text-text_color_light pb-3">
-            <div className="border-2 w-16 h-16 border-bg_secondary p-3 rounded-full">
+            <div className="border-2 w-16 h-16 border-bg_secondary shadow-md shadow-bg_secondary p-3 rounded-full">
               <AiFillBank className="text-4xl text-bg_secondary" />
             </div> EDUCATION</p><hr />
 
@@ -165,7 +165,7 @@ const Resume = () => {
         <div className="border-r border-b px-1 pb-2 ">
 
           <p className="text-xl flex items-center gap-2 text-text_color_light pb-3">
-            <div className="border-2 w-16 h-16 border-bg_secondary p-3 rounded-full">
+            <div className="border-2 w-16 h-16 shadow-md shadow-bg_secondary border-bg_secondary p-3 rounded-full">
               <HiMiniBriefcase className="text-4xl text-bg_secondary" />
             </div>EXPERIENCE</p><hr />
 
@@ -199,7 +199,7 @@ const Resume = () => {
 
           <div className="border-r px-1 pb-2 ">
             <p className="text-xl flex items-center gap-2 text-text_color_light pb-3">
-              <div className="border-2 w-16 h-16 border-bg_secondary p-3 rounded-full">
+              <div className="border-2 w-16 h-16 shadow-md shadow-bg_secondary border-bg_secondary p-3 rounded-full">
                 <BsCreditCard2Front className="text-4xl text-bg_secondary" />
               </div> Frontend</p><hr />
 
@@ -232,11 +232,11 @@ const Resume = () => {
           </div>
           <div className="px-1 pb-2 ">
             <p className="text-xl flex items-center gap-2 text-text_color_light pb-3">
-              <div className="border-2 w-16 h-16 border-bg_secondary p-3 rounded-full">
+              <div className="border-2 w-16 h-16 shadow-md shadow-bg_secondary border-bg_secondary p-3 rounded-full">
                 <LuBrainCircuit className="text-4xl text-bg_secondary" />
               </div> Knowledge</p><hr />
             <div className="col border-b py-4">
-              <div className="flex flex-col space-y-6">
+              <div className="flex flex-col  space-y-6">
                 <p className="flex items-center gap-2 text-text_color_dark">
                   <FaCheck className="text-bg_secondary" />Responsive and mobile-ready
                 </p>
@@ -269,7 +269,7 @@ const Resume = () => {
 
           <div className="border-r px-1 pb-2 ">
             <p className="text-xl flex items-center gap-2 text-text_color_light pb-3">
-              <div className="border-2 w-16 h-16 border-bg_secondary p-3 rounded-full">
+              <div className="border-2 w-16 h-16 shadow-md shadow-bg_secondary border-bg_secondary p-3 rounded-full">
                 <FaServer className="text-4xl text-bg_secondary" />
               </div> Backend</p><hr />
             <div className="col border-b py-4">
@@ -316,7 +316,7 @@ const Resume = () => {
           </div>
           <div className="border-r px-1 pb-2 ">
             <p className="text-xl flex items-center gap-2 text-text_color_light pb-3">
-              <div className="border-2 w-16 h-16 border-bg_secondary p-3 rounded-full">
+              <div className="border-2 w-16 h-16 border-bg_secondary shadow-md shadow-bg_secondary p-3 rounded-full">
                 <TbLanguageHiragana className="text-4xl text-bg_secondary" />
               </div> Language</p><hr />
             {languages.map((language, index) => (

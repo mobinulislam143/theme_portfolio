@@ -68,41 +68,18 @@ const Contact = () => {
         </div>
         <hr />
 
-        {/* <div className="p-5">
-          <h2 className="text-lg font-semibold text-gray-700 mb-4">Our Location</h2>
-          <div style={{ height: '400px', width: '100%' }}>
-            <GoogleMapReact
-              bootstrapURLKeys={{ key: "AIzaSyAc3SB1bUnNVNwIJseu8Frtfk4HxcIW1a4" }} // Add your Google Maps API key here
-              defaultCenter={defaultProps.center}
-              defaultZoom={defaultProps.zoom}
-            >
-              <AnyReactComponent
-                lat={10.99835602}
-                lng={77.01502627}
-                text="Our Office"
-              />
-            </GoogleMapReact>
-          </div>
-        </div> */}
-
-        <div className="p-5">
-          <h1 className="text-text_color_light text-xl font-bold">
-            Contact  <span className="text-bg_secondary">me</span>
-          </h1>
-        </div>
-        <hr />
-
+      
         <div className="px-4 pb-5">
           <form ref={formRef} onSubmit={handleSubmit}>
 
 
             <div className="flex items-center gap-2 py-5">
-              <input type="text" name="from_name" placeholder="Full Name" className="border-0 focus:outline-none  h-10 outline-none text-black bg-white w-full border-b focus:border-b-2 focus:border-bg_secondary transition-all" />
-              <input type="email" placeholder="e-mail" name="from_email" className="border-0 focus:outline-none h-10 outline-none text-black bg-white w-full border-b focus:border-b-2 focus:border-bg_secondary transition-all" />
+              <input type="text" name="from_name" placeholder="Full Name" className="border-0 focus:outline-none  h-10 outline-none text-bg_secondary bg-bg_primary hover:shadow-md hover:shadow-bg_secondary px-3 w-full border-b focus:border-b-2 focus:border-bg_secondary transition-all" />
+              <input type="email" placeholder="e-mail" name="from_email" className="border-0 focus:outline-none h-10 outline-none text-bg_secondary bg-bg_primary hover:shadow-md hover:shadow-bg_secondary px-3 w-full border-b focus:border-b-2 focus:border-bg_secondary transition-all" />
             </div>
           
             <textarea placeholder="Your message" name="message"
-              className="border-0 focus:outline-none outline-none text-black placeholder-gray-500 border-b w-full bg-white focus:border-b-2 focus:border-bg_secondary transition-all" id=""></textarea>
+              className="border-0 focus:outline-none outline-none text-bg_secondary placeholder-gray-500 border-b w-full bg-bg_primary hover:shadow-md hover:shadow-bg_secondary px-3 focus:border-b-2 focus:border-bg_secondary transition-all" id=""></textarea>
 
             <hr />
             <button type="submit" className="text-lg flex items-center gap-2 text-text_color_light hover:text-bg_secondary py-3 cursor-pointer">Send message <IoArrowRedoCircle /></button>
