@@ -124,7 +124,7 @@ const Resume = () => {
   }, []);
 
   return (
-    <div className="h-[600px] card bg-gray-800 shadow-lg rounded-md  overflow-y-auto overflow-x-hidden">
+    <div className="h-[600px] card bg-bg_tertiary shadow-lg rounded-md  overflow-y-auto overflow-x-hidden">
 
 
       <div className="p-5">
@@ -295,7 +295,7 @@ const Resume = () => {
                   {skill.percentage}%
                 </span>
               </div>
-              <div className="w-full bg-gray-800 rounded-full h-2.5 dark:bg-gray-700">
+              <div className="w-full bg-bg_tertiary rounded-full h-2.5 ">
                 <div
                   className="bg-bg_secondary h-2.5 rounded-full"
                   style={{ width: `${skill.percentage}%` }} // Note the corrected template literal

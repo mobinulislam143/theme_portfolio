@@ -52,7 +52,7 @@ const Blogs = () => {
   };
 
   return (
-    <div className="h-[600px] card bg-gray-800 shadow-lg rounded-md  overflow-y-auto overflow-x-hidden">
+    <div className="h-[600px] card bg-bg_tertiary shadow-lg rounded-md  overflow-y-auto overflow-x-hidden">
         <div className="p-5">
           <h1 className="text-text_color_light text-xl font-bold">
             My <span className="text-bg_secondary">Blogs</span>
@@ -67,7 +67,7 @@ const Blogs = () => {
             currentBlogs.map((blog) => (
               <div
                 key={blog._id}
-                className="bg-bg_primary shadow-lg rounded-lg overflow-hidden"
+                className="bg-bg_primary shadow-lg rounded-lg overflow-hidden hover:shadow-bg_secondary"
               >
                 <img
                   src={blog.blogimg}
@@ -81,7 +81,7 @@ const Blogs = () => {
                   <div className="flex items-center justify-between">
                     <p className="text-text_color_dark">{blog.blogwriter.substring(0, 13)}...</p>
                     <button
-                      className="bg-[#f59e0b] text-white px-4 py-2 rounded-md hover:bg-[#f59e0b] transition-colors"
+                      className="btn font-semibold bg-[#f59e0b] text-white px-4 py-2 rounded-md hover:bg-[#f59e0b] transition-colors"
                       onClick={() => handleReadMore(blog)}
                     >
                       Read More

@@ -130,7 +130,7 @@ const Works = () => {
   // ]
 
   return (
-    <div className="h-[600px] card bg-bg_primary shadow-lg rounded-md overflow-y-auto overflow-x-hidden">
+    <div className="h-[600px] card bg-bg_tertiary shadow-lg rounded-md overflow-y-auto overflow-x-hidden">
       <div className="p-5">
         <h1 className="text-text_color_light text-xl font-bold">My <span className="text-bg_secondary">Project</span></h1>
       </div>
@@ -141,7 +141,7 @@ const Works = () => {
           <p>Sorry, You have no work project</p>
         ) : (
           currentPortfolios.map((portfolio, index) => (
-            <Link onClick={() => handleReadMore(portfolio)} key={index} className="bg-[#151e30] shadow-lg rounded-md overflow-hidden">
+            <Link onClick={() => handleReadMore(portfolio)} key={index} className="bg-[#151e30] shadow-lg hover:shadow-bg_secondary rounded-md overflow-hidden">
               <img src={portfolio.img} alt={portfolio.title} className="w-full h-56 object-cover transform hover:scale-105 transition duration-300" />
               <div className="p-4">
                 <h3 className="text-xl font-bold text-text_color_light mb-2">{portfolio.title}</h3>

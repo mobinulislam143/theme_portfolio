@@ -58,7 +58,7 @@ const Contact = () => {
 
 
   return (
-    <div className="h-[600px] card bg-gray-800 shadow-lg rounded-md  overflow-y-auto overflow-x-hidden">
+    <div className="h-[600px] card bg-bg_tertiary shadow-lg rounded-md  overflow-y-auto overflow-x-hidden">
 
         
         <div className="p-5">

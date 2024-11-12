@@ -10,8 +10,9 @@ export default {
       colors:{
         bg_primary: "#111827",
         bg_secondary: "#f59e0b",
-        text_color_light: '#D1D5DB',
-        text_color_dark: '#9CA3AF'
+        bg_tertiary: "#161f33",
+        text_color_light: '#fcfcfc',
+        text_color_dark: '#e3e3e3'
       }
     },
   },

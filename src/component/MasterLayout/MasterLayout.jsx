@@ -111,21 +111,21 @@ const MasterLayout = () => {
                   />
                 </h1>
 
-                <span className="flex gap-3 items-center text-center justify-center">
+                <span className="flex gap-6 items-center text-center justify-center">
                   <a target="_blank" rel="noreferrer" href="https://www.linkedin.com" className="cursor-pointer" data-aos="fade-right">
-                    <FaLinkedin className="text-xl text-white hover:text-text_color_dark" />
+                    <FaLinkedin className="text-2xl bg-transparent text-white hover:text-text_color_dark shadow-lg shadow-bg_secondary transition-all" />
                   </a>
                   <a target="_blank" data-aos="fade-up" rel="noreferrer" href="https://www.github.com/mobinulislam143" className="cursor-pointer">
-                    <FaGithub className="text-xl text-white hover:text-text_color_dark" />
+                    <FaGithub className="text-2xl bg-transparent text-white hover:text-text_color_dark shadow-lg shadow-bg_secondary transition-all" />
                   </a>
                   <a target="_blank" data-aos="fade-down" rel="noreferrer" href="https://www.hackerrank.com/profile/mobinulislammahi" className="cursor-pointer">
-                    <FaHackerrank className="text-xl text-white hover:text-text_color_dark" />
+                    <FaHackerrank className="text-2xl bg-transparent text-white hover:text-text_color_dark shadow-lg shadow-bg_secondary transition-all" />
                   </a>
                   <a target="_blank" data-aos="fade-left" rel="noreferrer" href="https://www.twitter.com" className="cursor-pointer">
-                    <FaSquareXTwitter className="text-xl text-white hover:text-text_color_dark" />
+                    <FaSquareXTwitter className="text-2xl bg-transparent text-white hover:text-text_color_dark shadow-lg shadow-bg_secondary transition-all" />
                   </a>
                   <a target="_blank" data-aos="fade-left" rel="noreferrer" href="https://www.instagram.com/ma_ahii/" className="cursor-pointer">
-                    <AiFillInstagram className="text-xl text-white hover:text-text_color_dark" />
+                    <AiFillInstagram className="text-2xl bg-transparent text-white hover:text-text_color_dark shadow-lg shadow-bg_secondary transition-all" />
                   </a>
                 </span>
               </div>

@@ -29,7 +29,7 @@ const About = () => {
   return (
 
 
-    <div className="h-[600px] card bg-gray-800 shadow-lg rounded-md  overflow-y-auto overflow-x-hidden">
+    <div className="h-[600px] card bg-bg_tertiary shadow-lg rounded-md  overflow-y-auto overflow-x-hidden">
       {/* <div className=""> */}
       <div className="p-5">
         <h1 className=" text-xl text-text_color_light font-bold">About <span className="text-bg_secondary">me</span></h1>
